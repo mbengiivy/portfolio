@@ -286,6 +286,13 @@ textarea {
         margin: 0 3px; }
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
+        .about__content-picture{
+          @media only screen and(max-width: 480px) {
+
+              background-repeat: no-repeat;
+              background-size: contain ;
+            }
+        }
         
 
 .projects__row {
